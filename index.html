@@ -1,49 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Léa Fischer - Terapeuta</title>
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="description" content="Léa Fischer, Terapeuta especializada em Terapia de Reprocessamento Generativo (TRG), ajudando a alcançar equilíbrio emocional e qualidade de vida. Sessões online.">
+    <meta name="keywords" content="terapia, TRG, reprocessamento, equilíbrio emocional, terapia online, terapeuta, saúde mental">
+    <meta name="author" content="DynamoCode">
+    <link rel="author" href="https://www.dynamocode.com.br/">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+    <meta property="og:title" content="Léa Fischer - Terapeuta">
+    <meta property="og:description" content="Terapia de Reprocessamento Generativo (TRG) para equilíbrio emocional e melhora de qualidade de vida. Sessões online.">
+    <meta property="og:url" content="https://www.leafischer.com">
+    <meta property="og:type" content="website">
 </head>
+
 <body>
     <div class="overlay"></div>
     <header>
-        <div class="side-bar ativo">
+        <div class="side-bar">
             <div class="side-bar-content">
                 <div class="side-bar-top">
                     <div class="logo-header">
                         <img src="./assets/img/logo-header.png" alt="">
                     </div>
                     <button class="header-menu-burger-close">
-                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-x"></i>
                     </button>
                 </div>
                 <div class="nav-menu-side-bar">
                     <nav>
                         <ul class="nav-side-bar">
                             <li><a href="">Início</a></li>
-                            <li><a href="">Serviços</a></li>
-                            <li><a href="">Como Funciona</a></li>
-                            <li><a href="">Sobre Mim</a></li>
-                            <li><a href="">Avaliaçõess</a></li>
+                            <li><a href="#services">Serviços</a></li>
+                            <li><a href="#howItWorks">Como Funciona</a></li>
+                            <li><a href="#about">Sobre Mim</a></li>
+                            <li><a href="#faq">Avaliações</a></li>
                         </ul>
                     </nav>
                 </div>
                 <div class="side-bar-social-media">
                     <div class="side-bar-all-social-media">
-                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                        <h1>+55 00 00000-00000</h1>
+                        <a href="https://www.instagram.com/leafischer_terapeuta/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <h1>@leafischer_terapeuta</h1>
                     </div>
                     <div class="side-bar-all-social-media">
-                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                        <h1>+55 00 00000-00000</h1>
+                        <a href="https://api.whatsapp.com/send?phone=41765644956&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20seu%20site.%20Poderia%20me%20explicar%20melhor%20sobre%20os%20seus%20servi%C3%A7os%3F" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <h1>+41 76 564 49 56</h1>
                     </div>
                     <div class="side-bar-all-social-media">
-                        <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-                        <h1>+55 00 00000-00000</h1>
+                        <a href="https://www.facebook.com/lea.fischer.948/?locale=es_LA" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                        <h1>Lea Fischer</h1>
                     </div>
                 </div>
             </div>
@@ -57,10 +69,10 @@
                     <nav>
                         <ul>
                             <li><a href="">Início</a></li>
-                            <li><a href="">Serviços</a></li>
-                            <li><a href="">Como Funciona</a></li>
-                            <li><a href="">Sobre Mim</a></li>
-                            <li><a href="">Avaliaçõess</a></li>
+                            <li><a href="#services">Serviços</a></li>
+                            <li><a href="#howItWorks">Como Funciona</a></li>
+                            <li><a href="#about">Sobre Mim</a></li>
+                            <li><a href="#faq">Avaliações</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -71,23 +83,21 @@
                 </div>
             </div>
         </div>
-        
     </header>
     <main>
-        
-        <section class="banner-home">
+        <section class="banner-home" id="home">
             <div class="container">
                 <div class="content-home-banner">
                     <div class="text-home-banner">
-                        <h1><span>Título de suas</span><br><span>preferencia aqui,</span> aqui um complemento para o titulo aqui um complemento</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
-                        <a>Agendar sua consulta agora!</a>
+                        <h1>Alcance o <span>Equilíbrio Emocional</span> e Transforme Sua Vida com <span>Terapia de Resultados Eficazes</span></h1>
+                        <p>Descubra a poderosa eficácia da Terapia de Reprocessamento Generativo (TRG), uma abordagem rápida e comprovada para superar traumas profundos, desbloquear seu potencial e encontrar paz interior. Restaure seu equilíbrio emocional e viva plenamente, livre das limitações do passado.</p>
+                        <a href="https://api.whatsapp.com/send?phone=41765644956&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20seu%20site.%20Poderia%20me%20explicar%20melhor%20sobre%20os%20seus%20servi%C3%A7os%3F" target="_blank">Agendar sua consulta agora!</a>
                     </div>
                     <div class="img-home-banner">
-                        <img src="assets/img/img-banner.png" alt="">
+                        <img src="./assets/img/img-banner.png" alt="">
                         <div class="detail1-banner">
-                            <i class="fa-regular fa-clock"></i>
-                            <p><span>+XX anos</span> de <br> experiência</p>
+                            <i class="fa-solid fa-scale-balanced"></i>
+                            <p><span>Equílibrio</span> para<br>sua vida</p>
                         </div>
                         <div class="detail2-banner">
                             <i class="fa-regular fa-heart"></i>
@@ -102,10 +112,12 @@
                 <div class="banner2-content">
                     <div class="banner2-instagram">
                         <img src="./assets/img/foto-instagram.JPG" alt="">
-                        <h1>@instagram</h1>
+                        <a href="https://www.instagram.com/leafischer_terapeuta/" target="_blank">
+                            <h1>@leafischer_terapeuta</h1>
+                        </a>
                     </div>
                     <div class="banner2-endereco">
-                        <i class="fa-solid fa-location-dot"></i>
+                        <i class="fa-solid fa-house-laptop"></i>
                         <h1>Atendimento Online</h1>
                     </div>
                 </div>
@@ -114,86 +126,77 @@
                 <h1>LIDER</h1>
             </div>
         </section>
-        <section class="services">
+        <section class="services" id="services">
             <div class="container">
                 <div class="services-content">
                     <h1>Alguns de nossos <span>serviços</span></h1>
                     <div class="all-cards-services">
                         <div class="card-services">
-                            <i class="fa-regular fa-heart"></i>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur</p>
+                            <i class="fa-regular fa-smile"></i>
+                            <p>Proporciona equilíbrio, aumenta a qualidade de vida e o auto estima que você tanto procura.</p>
                         </div>
                         <div class="card-services">
-                            <i class="fa-regular fa-heart"></i>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur</p>
+                            <i class="fa-regular fa-check-circle"></i>
+                            <p>É uma terapia de resultado breve, focada na melhora do cliente, no menor tempo e da forma mais efetiva possível.</p>
                         </div>
                         <div class="card-services">
-                            <i class="fa-regular fa-heart"></i>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur</p>
+                            <i class="fa-regular fa-comment"></i>
+                            <p>É uma terapia onde o cliente não precisa contar seus problemas, ele só precisa vivenciar os momentos que lhe causaram dores, sempre com o acompanhamento seguro do terapeuta.</p>
                         </div>
                         <div class="card-services">
-                            <i class="fa-regular fa-heart"></i>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur</p>
-                        </div>
-                        <div class="card-services">
-                            <i class="fa-regular fa-heart"></i>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur</p>
-                        </div>
-                        <div class="card-services">
-                            <i class="fa-regular fa-heart"></i>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur</p>
-                        </div>
-                        <div class="card-services">
-                            <i class="fa-regular fa-heart"></i>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur</p>
-                        </div>
-                        <div class="card-services">
-                            <i class="fa-regular fa-heart"></i>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur</p>
+                            <i class="fa-solid fa-laptop"></i>
+                            <p>Sessões totalmente online, com a mesma eficácia da terapia presencial, permitindo que você se trate no conforto de sua casa.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="comoFunciona-section">
+        <section class="comoFunciona-section" id="howItWorks">
             <div class="container">
                 <span class="texts-como-funciona">
                     <h1>Como funciona a <span>terapia</span></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco</p>
+                    <p>Nossa metodologia é composta de cinco partes.</p>
                 </span>
                 <div class="cards-como-funciona">
                     <div class="card-como-funciona" data-number="01">
                         <span class="title-card-como-funciona">
-                            <i class="fa-solid fa-question"></i>
-                            <h1>Como funciona titulo 1</h1>
+                            <i class="fa-solid fa-clock"></i>
+                            <h1>⁠CRONOLÓGICO</h1>
                         </span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur.</p>
+                        <p>Eliminação dos registros de dores e sofrimentos armazenados no inconsciente.</p>
                     </div>
                     <div class="card-como-funciona" data-number="02">
                         <span class="title-card-como-funciona">
-                            <i class="fa-solid fa-question"></i>
-                            <h1>Como funciona titulo 2</h1>
+                            <i class="fa-solid fa-user"></i>
+                            <h1>SOMÁTICO</h1>
                         </span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur.</p>
+                        <p>Mapeamento corporal para identificar eventos traumáticos manifestados como sintomas.</p>
                     </div>
                     <div class="card-como-funciona" data-number="03">
                         <span class="title-card-como-funciona">
-                            <i class="fa-solid fa-question"></i>
-                            <h1>Como funciona titulo 3</h1>
+                            <i class="fa-solid fa-brain"></i>
+                            <h1>TEMÁTICO</h1>
                         </span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur.</p>
+                        <p>Varredura cronológica para eliminar crenças limitantes e dores emocionais.</p>
                     </div>
                     <div class="card-como-funciona" data-number="04">
                         <span class="title-card-como-funciona">
-                            <i class="fa-solid fa-question"></i>
-                            <h1>Como funciona titulo 4</h1>
+                            <i class="fa-solid fa-forward"></i>
+                            <h1>FUTURO</h1>
                         </span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum tenetur adipisicing elit. Nostrum tenetur.</p>
+                        <p>O inconsciente é atemporal, opera por empilhamento e repete padrões. Nesta etapa, o terapeuta trata os medos futuros.</p>
+                    </div>
+                    <div class="card-como-funciona card-full-width" data-number="05">
+                        <span class="title-card-como-funciona">
+                            <i class="fa-solid fa-rocket"></i>
+                            <h1>POTENCIALIZAÇÃO</h1>
+                        </span>
+                        <p>Visualização com sentimentos de alta frequência de todos os sonhos realizados.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="about-content">
                     <div class="about-img">
@@ -204,8 +207,8 @@
                     </div>
                     <div class="about-text">
                         <h1><span>Prazer, </span>Léa Fischer!</h1>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.<br><br>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                        <a>Agendar sua consulta agora!</a>
+                        <p>Meu nome é Léa Fischer, sou especializada em Terapia de Reprocessamento Generativo (TRG), Leitura Corporal e Comportamental, além de ser Master Terapeuta em Traumas e Fobias, com registro CITRG nº 11.442. Minha missão é ajudar milhares de pessoas a alcançar o equilíbrio emocional. A TRG me conquistou por ser uma terapia ágil e eficaz, capaz de tratar traumas armazenados no inconsciente desde o nascimento até o presente.<br><br>Sou brasileira, nascida em Belo Horizonte e criada em São Paulo. Há mais de trinta anos, resido na cidade de Lausanne, na Suíça. Decidi me tornar uma terapeuta focada em resultados, com o propósito de atender a crescente demanda de pessoas que enfrentam ansiedade e depressão. Encontrei na TRG as ferramentas ideais para auxiliar essas pessoas em seu caminho de cura. Falo português, francês e tenho conhecimentos básicos de italiano.</p>
+                        <a href="https://api.whatsapp.com/send?phone=41765644956&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20seu%20site.%20Poderia%20me%20explicar%20melhor%20sobre%20os%20seus%20servi%C3%A7os%3F" target="_blank">Agendar sua consulta agora!</a>
                     </div>
                 </div>
             </div>
@@ -217,7 +220,7 @@
                 </div>
             </div>
         </section>
-        <section class="faq">
+        <section class="faq" id="faq">
             <div class="container">
                 <div class="faq-content">
                     <div class="faq-content-title">
@@ -225,95 +228,80 @@
                     </div>
                     <div class="faq-questions">
                         <div class="question">
-                            <dt><button aria-controls="pergunta1" aria-expanded="false">Pergunta 1</button></dt>
+                            <dt><button aria-controls="pergunta1" aria-expanded="false">Qual é a duração do tratamento?</button></dt>
                             <dd id="pergunta1">
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A corporis eius ullam perspiciatis nulla praesentium perferendis deserunt molestiae consectetur quaerat. Debitis doloremque mollitia soluta libero repellendus dignissimos impedit corrupti ratione!</p>
+                                <p>A duração do tratamento varia de acordo com cada pessoa, dependendo do caso e da neuroplasticidade individual. No entanto, o processo tem início, meio e fim bem definidos. Ao longo do reprocessamento, você terá clareza sobre a fase em que se encontra e o quão próximo está de concluir o tratamento.</p>
                             </dd>
                         </div>
                         <div class="question">
-                            <dt><button aria-controls="pergunta2" aria-expanded="false">Pergunta 2</button></dt>
+                            <dt><button aria-controls="pergunta2" aria-expanded="false">A primeira consulta é gratuita?</button></dt>
                             <dd id="pergunta2">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam provident dolorum, temporibus, sapiente, velit nemo minima quidem est sunt unde repellendus nesciunt laudantium numquam. Id vel accusamus excepturi suscipit eligendi!</p>
+                                <p>Sim, a primeira sessão, dedicada à psicoeducação e anamnese, é gratuita. Cada consulta tem duração aproximada de uma hora.</p>
                             </dd>
                         </div>
                         <div class="question">
-                            <dt><button aria-controls="pergunta3" aria-expanded="false">Pergunta 3</button></dt>
+                            <dt><button aria-controls="pergunta3" aria-expanded="false">Quanto tempo leva para sentir os resultados?</button></dt>
                             <dd id="pergunta3">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est cumque libero vel ex temporibus quos iusto similique optio labore nemo magnam pariatur quis, repellendus impedit in minima distinctio eos!</p>
+                                <p>Os primeiros resultados já podem ser sentidos logo na primeira sessão, quando o reprocessamento do desconforto é iniciado, proporcionando uma sensação imediata de melhora.</p>
                             </dd>
                         </div>
                         <div class="question">
-                            <dt><button aria-controls="pergunta4" aria-expanded="false">Pergunta 4</button></dt>
+                            <dt><button aria-controls="pergunta4" aria-expanded="false">Atende presencialmente?</button></dt>
                             <dd id="pergunta4">
-                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A corporis eius ullam perspiciatis nulla praesentium perferendis deserunt molestiae consectetur quaerat. Debitis doloremque mollitia soluta libero repellendus dignissimos impedit corrupti ratione!</p>
+                                <p>Não, todas as sessões são realizadas de forma 100% online.</p>
                             </dd>
                         </div>
                         <div class="question">
-                            <dt><button aria-controls="pergunta5" aria-expanded="false">Pergunta 5</button></dt>
+                            <dt><button aria-controls="pergunta5" aria-expanded="false">A terapia online é tão eficaz quanto a presencial?</button></dt>
                             <dd id="pergunta5">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam provident dolorum, temporibus, sapiente, velit nemo minima quidem est sunt unde repellendus nesciunt laudantium numquam. Id vel accusamus excepturi suscipit eligendi!</p>
-                            </dd>
-                        </div>
-                        <div class="question">
-                            <dt><button aria-controls="pergunta6" aria-expanded="false">Pergunta 6</button></dt>
-                            <dd id="pergunta6">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est cumque libero vel ex temporibus quos iusto similique optio labore nemo magnam pariatur quis, repellendus impedit in minima distinctio eos!</p>
-                            </dd>
-                        </div>
-                        <div class="question">
-                            <dt><button aria-controls="pergunta7" aria-expanded="false">Pergunta 7</button></dt>
-                            <dd id="pergunta7">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam provident dolorum, temporibus, sapiente, velit nemo minima quidem est sunt unde repellendus nesciunt laudantium numquam. Id vel accusamus excepturi suscipit eligendi!</p>
-                            </dd>
-                        </div>
-                        <div class="question">
-                            <dt><button aria-controls="pergunta8" aria-expanded="false">Pergunta 8</button></dt>
-                            <dd id="pergunta8">
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores est cumque libero vel ex temporibus quos iusto similique optio labore nemo magnam pariatur quis, repellendus impedit in minima distinctio eos!</p>
+                                <p>Sim, ambos os formatos oferecem a mesma eficácia terapêutica, com resultados alcançados da mesma forma. No entanto, em minha prática clínica, tenho percebido que o atendimento online proporciona maior comodidade aos pacientes.</p>
                             </dd>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <footer>
-            <div class="container">
-                <div class="footer-container">
-                    <div class="footer-column logo-column">
-                        <img src="assets/img/logo-footer.png" alt="Logo TRG">
-                    </div>
-                    <div class="footer-column about-column">
-                        <h4>Léa Fischer</h4>
-                        <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                    </div>
-                    <div class="footer-column nav-column">
-                        <h4>Navegação</h4>
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#servicos">Serviços</a></li>
-                            <li><a href="#sobre">Sobre</a></li>
-                            <li><a href="#faq">Perguntas Frequentes</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column social-column">
-                        <h4>Redes Sociais</h4>
-                        <ul>
-                            <li><a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
-                            <li><a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="https://linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a></li>
-                            <li><a href="mailto:example@example.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></li>
-                        </ul>
-                    </div>                
-                </div>
-                
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; Copyright 2024. Todos os direitos reservados. Desenvolvido por <a href="https://www.dynamocode.com.br/" target="_blank">DynamoCode</a>.</p>
-            </div>
-        </footer>        
     </main>
-    <script src="./assets/js/menu-scrool.js" ></script>
-    <script src="./assets/js/faq.js" ></script>
-    <script src="./assets/js/menu-lateral.js" ></script>
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-column logo-column">
+                    <img src="./assets/img/logo-footer.png" alt="Logo TRG">
+                </div>
+                <div class="footer-column about-column">
+                    <h4>Léa Fischer</h4>
+                    <p>Me chamo Léa Fischer, sou formada em Terapia de Reprocessamento Generativo e Leitura Corporal e Comportamental, registro CITRG. 11.442. O meu objetivo é... <a href="#about">Ver mais</a></p>
+                </div>
+                <div class="footer-column nav-column">
+                    <h4>Navegação</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#faq">Perguntas Frequentes</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column social-column">
+                    <h4>Redes Sociais</h4>
+                    <ul>
+                        <li><a href="https://www.facebook.com/lea.fischer.948/?locale=es_LA" target="_blank" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/leafischer_terapeuta/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=41765644956&text=Ol%C3%A1%2C%20vim%20atrav%C3%A9s%20do%20seu%20site.%20Poderia%20me%20explicar%20melhor%20sobre%20os%20seus%20servi%C3%A7os%3F" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href="mailto:leafischer@hotmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; Copyright 2024. Todos os direitos reservados. Desenvolvido por <a href="https://www.dynamocode.com.br/" target="_blank">DynamoCode</a>.</p>
+        </div>
+    </footer>
+    <script src="./assets/js/menu-scrool.js"></script>
+    <script src="./assets/js/faq.js"></script>
+    <script src="./assets/js/menu-lateral.js"></script>
+    <script src="./assets/js/menu-scroll.js"></script>
+    <script src="./assets/js/scroll-to-section.js"></script>
 </body>
+
 </html>
