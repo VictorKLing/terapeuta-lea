@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'din', sans-serif;
+    font-family: 'DIN', 'Arial', sans-serif;
     font-weight: normal;
 }
 
@@ -32,19 +32,19 @@ img {
 }
 
 @font-face {
-    font-family: 'din';
+    font-family: 'DIN';
     src: url('../fonts/DIN-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
 @font-face {
-    font-family: 'din';
+    font-family: 'DIN';
     src: url('../fonts/DIN-Medium.ttf') format('truetype');
     font-weight: 500;
 }
 
 @font-face {
-    font-family: 'din';
+    font-family: 'DIN';
     src: url('../fonts/DIN-Bold.ttf') format('truetype');
     font-weight: bold;
 }
@@ -1049,17 +1049,14 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* Distribui as colunas uniformemente */
     align-items: flex-start;
     width: 100%;
     padding: 30px 0;
     gap: 10px;
-    /* Espaçamento entre as colunas */
 }
 
 .footer-column {
     flex: 0 1 auto;
-    /* Não encolhe e usa a largura baseada no conteúdo */
     padding: 0;
     box-sizing: border-box;
 }
@@ -1148,7 +1145,6 @@ footer {
 .social-column ul {
     display: flex;
     gap: 8px;
-    /* Ajusta o espaçamento entre ícones sociais */
 }
 
 .social-column li>a {
