@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: din, sans-serif;
+    font-family: 'din', sans-serif;
     font-weight: normal;
 }
 
@@ -32,20 +32,20 @@ img {
 }
 
 @font-face {
-    font-family: din;
-    src: url(../fonts/DIN-Regular.ttf) format(opentype);
+    font-family: 'din';
+    src: url('../fonts/DIN-Regular.ttf') format('truetype');
     font-weight: normal;
 }
 
 @font-face {
-    font-family: din;
-    src: url(../fonts/DIN-Medium.ttf) format(opentype);
+    font-family: 'din';
+    src: url('../fonts/DIN-Medium.ttf') format('truetype');
     font-weight: 500;
 }
 
 @font-face {
-    font-family: din;
-    src: url(../fonts/DIN-Bold.ttf) format(opentype);
+    font-family: 'din';
+    src: url('../fonts/DIN-Bold.ttf') format('truetype');
     font-weight: bold;
 }
 
@@ -58,7 +58,7 @@ img {
 .overlay {
     position: fixed;
     top: 0;
-    right: -100%;
+    right: -200%;
     width: 100vw;
     height: 100vh;
     background-color: var(--black);
@@ -67,7 +67,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: right 0.5s ease;
+    transition: right 0.3s ease;
 }
 
 .overlay.ativo {

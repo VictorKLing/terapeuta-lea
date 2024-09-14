@@ -7,7 +7,7 @@ const clickSideBar = document.querySelectorAll(".nav-side-bar a");
 function abrirMenuLateral() {
     sideBar.classList.add('ativo');
     overlay.classList.add('ativo');
-    document.body.style.overflow = 'hidden'; 
+    document.body.style.overflow = 'hidden';
 }
 
 function fecharMenuLateral() {
