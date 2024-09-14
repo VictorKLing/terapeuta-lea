@@ -31,23 +31,7 @@ img {
     --black2: #303030;
 }
 
-@font-face {
-    font-family: 'DIN';
-    src: url('../fonts/DIN-Regular.ttf') format('truetype');
-    font-weight: normal;
-}
 
-@font-face {
-    font-family: 'DIN';
-    src: url('../fonts/DIN-Medium.ttf') format('truetype');
-    font-weight: 500;
-}
-
-@font-face {
-    font-family: 'DIN';
-    src: url('../fonts/DIN-Bold.ttf') format('truetype');
-    font-weight: bold;
-}
 
 .container {
     max-width: 1350px;
