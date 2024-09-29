@@ -98,6 +98,12 @@ header {
 }
 
 @media (max-width: 767px) {
+
+    header {
+        background-color: var(--white);
+        backdrop-filter: none;
+    }
+
     .header-nav-menu {
         display: none;
     }
@@ -774,6 +780,7 @@ header {
     align-items: center;
     flex-direction: column;
     gap: 70px;
+    width: 100%;
 }
 
 .texts-como-funciona {
@@ -819,6 +826,7 @@ header {
     gap: 20px;
     position: relative;
     overflow: hidden;
+    width: 100%;
 }
 
 .card-como-funciona.card-full-width {
@@ -902,18 +910,31 @@ header {
     height: 700px;
 }
 
-.reviews-content h1 {
+.reviews-content > h1 {
     font-size: 36px;
     color: var(--white);
     font-weight: normal;
     text-align: center;
 }
 
-.reviews-content span {
+.reviews-content > span {
     font-weight: 500;
     color: var(--green);
 }
 
+.cDHIQK{
+    background-color: var(--white);
+}
+.eHezJm{
+    background-color: var(--white);
+}
+.eapps-widget-toolbar,
+.es-widget-title-container{
+    display: none !important;
+}
+.eapps-widget-show-toolbar{
+    margin-top: 40px;
+}
 /*reviews*/
 
 /*faq*/
@@ -966,8 +987,6 @@ header {
     justify-content: space-between;
 }
 
-
-
 .faq-questions button::after {
     content: "";
     display: inline-block;
@@ -997,13 +1016,19 @@ header {
 }
 
 .faq-questions dd.ativa {
-    max-height: 100px;
+    max-height: 200px;
     padding: 16px 0px;
 }
 
 .question {
     padding: 28px 0px;
     border-bottom: 1px solid var(--black);
+}
+
+.question > dt > button {
+    color: var(--dark-blue);
+    text-decoration: none;
+    font-weight: 500;
 }
 
 @media (max-width: 800px) {
