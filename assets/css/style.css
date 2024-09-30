@@ -909,19 +909,32 @@ header {
     padding: 60px 0px;
     height: 700px;
 }
-
+.reviews-content{
+    position: relative;
+}
 .reviews-content > h1 {
     font-size: 36px;
     color: var(--white);
     font-weight: normal;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .reviews-content > span {
     font-weight: 500;
     color: var(--green);
 }
-
+/* .reviews-content::after {
+    content: "";
+    width: 300px;
+    height: 70px;
+    background-color: #162F54;
+    position: absolute;
+    z-index: 9999999999;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -50px;
+} */
 .cDHIQK{
     background-color: var(--white);
 }
@@ -932,9 +945,7 @@ header {
 .es-widget-title-container{
     display: none !important;
 }
-.eapps-widget-show-toolbar{
-    margin-top: 40px;
-}
+
 /*reviews*/
 
 /*faq*/
